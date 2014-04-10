@@ -1,0 +1,29 @@
+{
+  "name": "Hyperlapse",
+  "version": "0.1.0",
+  "homepage": "http://hyperlapse.tllabs.io/",
+  "authors": [
+    "Peter Nitsch"
+  ],
+  "description": "JavaScript hyper-lapse utility for Google Street View",
+  "main": "src/Hyperlapse.js",
+  "keywords": [
+    "hyperlapse",
+    "street",
+    "view",
+    "google",
+    "video"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threejs": "*",
+    "GSVPano.js": "git://github.com/pnitsch/GSVPano.js.git"
+  }
+}
